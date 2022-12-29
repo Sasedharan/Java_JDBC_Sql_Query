@@ -40,18 +40,18 @@ public class Main {
                             if (skill.equals(skill1)) {
                                 System.out.println(" Similar Data in the Table ");
                             } else {
-                                logger.info("Skill Data Mismatch");
+                                logger.info("\nSkill Data Mismatch");
                             }
                         } else {
-                            logger.info("Name Data Mismatch");
+                            logger.info("\nName Data Mismatch");
                         }
                     } else {
-                        logger.info("Employee_ID Data Mismatch");
+                        logger.info("\nEmployee_ID Data Mismatch");
                     }
                 }
             }
         } catch (SQLException e) {
-            logger.info(" Data's MisMatch Found ");
+            logger.info("\nData's MisMatch Found ");
         }
     }
 }
